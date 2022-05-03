@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="/styles/contact.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div id="menu" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="/index.html">home</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="service.html">service</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <div class="dropdown">
+                    <button class="dropbtn">Dropdown</button>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $("button").click(function () {
+                    $("p").hide("slow", function () {
+                        alert("The paragraph is now hidden");
+                    });
+                });
+            });
+        </script>
+        </head>
+
+        <body>
+
+            <button>Hide</button>
+
+            <p>This is a paragraph with little content.</p>
+
+    </section>
+
+
+    <div class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>EAT.PLAY.LOVE</h3>
+                <p>We Provide the best products and services!</p>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">about</a>
+                <a href="#">service</a>
+                <a href="#">contact</a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe us for latest updates</p>
+                <form action="">
+                    <input type="email" placeholder="your email">
+                    <input type="submit" class="btn" value="subscribe">
+                </form>
+            </div>
+        </div>
+        <h1 class="credit"> created by <a href="#">John Maturan</a> | MIT</h1>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src=""></script>
+
+</body>
+
+</html>
